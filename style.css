@@ -1,0 +1,38 @@
+*{
+margin: 0;
+padding: 0;
+color: white;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.pexels.com/photos/2246476/pexels-photo-2246476.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} 
+ul {
+   display: flex;
+   list-style-type: none;
+}
+li{
+padding-left: 20px;
+}
+.png{
+  display: flex;
+  justify-content: space-between;
+}
+h2{
+padding-left: 10px;
+padding-top: 10px;
+}
+.head{ 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    margin-right: 10px;
+}
